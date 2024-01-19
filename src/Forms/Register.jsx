@@ -23,7 +23,7 @@ const Register = () => {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:4000/auth/register", formData);
+      await axios.post("https://growxcd.onrender.com/auth/register", formData);
       toast.success("User registered successfully");
       navigate("/login");
     } catch (error) {

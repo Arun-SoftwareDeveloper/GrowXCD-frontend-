@@ -30,7 +30,7 @@ const CreateProduct = ({ token }) => {
 
     try {
       const response = await axios.post(
-        "http://localhost:4000/product/create",
+        "https://growxcd.onrender.com/product/create",
         productData,
         {
           headers: {

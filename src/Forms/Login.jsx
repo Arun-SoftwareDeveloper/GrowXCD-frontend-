@@ -22,7 +22,7 @@ const Login = ({ onLogin }) => {
 
     try {
       const response = await axios.post(
-        "http://localhost:4000/auth/login",
+        "https://growxcd.onrender.com/auth/login",
         formData
       );
 
