@@ -1,0 +1,80 @@
+/* Add this CSS in a separate style file or use styled-components */
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.cart-icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.bi-cart {
+  font-size: 1.5rem;
+}
+
+.cart-count {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.8rem;
+  margin-left: 5px;
+}
+
+.row-cols-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+}
+/* Add this CSS in a separate style file or use styled-components */
+
+.card {
+  width: 350px; /* Adjust the width as needed */
+  height: 500px; /* Adjust the height as needed */
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 60%; /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+}
+
+/* Add more styles as needed */

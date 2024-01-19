@@ -1,0 +1,14 @@
+.footer-container {
+  background-color: #212529;
+  color: white;
+  padding: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer-container:hover {
+  color: #ffc107;
+  transition: color 0.3s ease-in-out;
+}

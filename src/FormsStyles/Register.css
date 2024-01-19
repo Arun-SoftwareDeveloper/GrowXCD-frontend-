@@ -1,0 +1,13 @@
+/* Add this CSS in a separate style file or use styled-components */
+
+.register-container {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.register-quote {
+  font-style: italic;
+  color: #555;
+  margin-top: 20px;
+}
